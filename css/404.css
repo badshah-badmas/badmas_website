@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" );
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  overflow:hidden;
+  background-color: #f4f6ff;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left:6vmin;
+  text-align: center;
+}
+
+.cog-wheel1, .cog-wheel2{
+  transform:scale(0.7);
+}
+
+.cog1, .cog2{
+  width:20vmin;
+  height:20vmin;
+  border-radius:50%;
+  border:5vmin solid #f3c623;
+  position: relative;
+}
+
+
+.cog2{
+  border:5vmin solid #4f8a8b;
+}
+
+.top, .down, .left, .right, .left-top, .left-down, .right-top, .right-down{
+  width:5vmin;
+  height:5vmin;
+  background-color: #f3c623;
+  position: absolute;
+}
+
+.cog2 .top,.cog2  .down,.cog2  .left,.cog2  .right,.cog2  .left-top,.cog2  .left-down,.cog2  .right-top,.cog2  .right-down{
+  background-color: #4f8a8b;
+}
+
+ .top{
+  top:-7vmin;
+  left:5vmin;
+}
+/*
+.down{
+  bottom:-7vmin;
+  left:9vmin;
+}
+
+.left{
+  left:-7vmin;
+  top:5vmin;
+}
+
+.right{
+  right:-7vmin;
+  top:5vmin;
+}
+
+.left-top{
+  transform:rotateZ(-45deg);
+  left:-4vmin;
+  top:-4vmin;
+}
+
+.left-down{
+  transform:rotateZ(45deg);
+  left:-4vmin;
+  top:12vmin;
+}
+
+.right-top{
+  transform:rotateZ(45deg);
+  right:-4vmin;
+  top:-4vmin;
+}
+
+.right-down{
+  transform:rotateZ(-45deg);
+  right:-4vmin;
+  top:12vmin;
+} */
+
+.cog2{
+  position: relative;
+  left:-10.2vmin;
+  bottom:10vmin;
+}
+
+h1{
+  color:#142833;
+}
+
+.first-four{
+  position: relative;
+  left:5vmin;
+  font-size:20vmin;
+}
+
+.second-four{
+  position: relative;
+  right:16vmin;
+  z-index: -1;
+  font-size:20vmin;
+}
+
+.wrong-para{
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom:15vmin;
+  padding:3vmin 12vmin 3vmin 3vmin;
+  font-weight:600;
+  color:#092532;
+}
